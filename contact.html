@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez TCONNECTÉ pour votre projet de domotique, alarme ou vidéosurveillance. Devis gratuit et réponse rapide.">
+    <meta name="keywords" content="contact, devis, domotique, alarme, vidéosurveillance, Domloup, Rennes">
+    <title>Contact - TCONNECTÉ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">T</span>CONNECTÉ
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="domotique.html" class="nav-link">Domotique</a></li>
+                    <li><a href="alarmes.html" class="nav-link">Alarmes</a></li>
+                    <li><a href="videosurveillance.html" class="nav-link">Vidéosurveillance</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <a href="tel:0781437859" class="phone-link">
+                        <i class="fas fa-phone"></i>
+                        <span>07 81 43 78 59</span>
+                    </a>
+                    <a href="contact.html" class="btn btn-primary">Devis gratuit</a>
+                </div>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-secondary">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    Contactez-<span class="highlight">nous</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Une question, un projet ? Notre équipe vous répond dans les plus brefs délais
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Nos coordonnées</span>
+                <h2 class="section-title">Plusieurs façons de nous joindre</h2>
+            </div>
+
+            <div class="contact-info-grid">
+                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Téléphone</h3>
+                    <p>Du lundi au vendredi<br>9h - 18h</p>
+                    <a href="tel:0781437859" class="contact-link">07 81 43 78 59</a>
+                </div>
+
+                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Réponse sous 24h<br>en semaine</p>
+                    <a href="mailto:contact@tconnecte.fr" class="contact-link">contact@tconnecte.fr</a>
+                </div>
+
+                <div class="contact-info-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Adresse</h3>
+                    <p>13 Rue des Aubépines<br>35410 Domloup</p>
+                    <a href="https://maps.google.com/?q=13+Rue+des+Aubépines+35410+Domloup" target="_blank" class="contact-link">Voir sur la carte</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="contact-form-wrapper">
+                <div class="section-header text-center" data-aos="fade-up">
+                    <span class="section-tag">Formulaire de contact</span>
+                    <h2 class="section-title">Envoyez-nous un message</h2>
+                    <p class="section-description">
+                        Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais
+                    </p>
+                </div>
+
+                <form class="contact-form" data-aos="fade-up" data-aos-delay="100">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="prenom">Prénom <span class="required">*</span></label>
+                            <input 
+                                type="text" 
+                                id="prenom" 
+                                name="prenom" 
+                                class="form-control" 
+                                placeholder="Jean" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="nom">Nom <span class="required">*</span></label>
+                            <input 
+                                type="text" 
+                                id="nom" 
+                                name="nom" 
+                                class="form-control" 
+                                placeholder="Dupont" 
+                                required
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-control" 
+                                placeholder="jean.dupont@exemple.fr" 
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input 
+                                type="tel" 
+                                id="telephone" 
+                                name="telephone" 
+                                class="form-control" 
+                                placeholder="06 12 34 56 78"
+                            >
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sujet">Sujet <span class="required">*</span></label>
+                        <select id="sujet" name="sujet" class="form-control" required>
+                            <option value="">Sélectionnez un sujet</option>
+                            <option value="domotique">Domotique</option>
+                            <option value="alarme">Alarme</option>
+                            <option value="videosurveillance">Vidéosurveillance</option>
+                            <option value="devis">Demande de devis</option>
+                            <option value="sav">Service après-vente</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message <span class="required">*</span></label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="form-control" 
+                            placeholder="Décrivez votre projet ou votre demande..." 
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="rgpd" name="rgpd" required>
+                        <label for="rgpd">
+                            J'accepte que mes données soient utilisées dans le cadre de ma demande. 
+                            Voir la <a href="#">politique de confidentialité</a>. <span class="required">*</span>
+                        </label>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-paper-plane"></i>
+                            Envoyer le message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Localisation</span>
+                <h2 class="section-title">Où nous trouver</h2>
+                <p class="section-description">
+                    Nous intervenons à Domloup et dans toute la région de Rennes
+                </p>
+            </div>
+
+            <div class="map-container" data-aos="fade-up" data-aos-delay="100">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2667.8!2d-1.5!3d48.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDA2JzAwLjAiTiAxwrAzMCcwMC4wIlc!5e0!3m2!1sfr!2sfr!4v1234567890"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localisation TCONNECTÉ">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Zone d'intervention</span>
+                <h2 class="section-title">Nous intervenons dans toute la région</h2>
+            </div>
+
+            <div class="service-areas" data-aos="fade-up" data-aos-delay="100">
+                <div class="areas-list">
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Domloup</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Rennes</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Châteaugiron</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Chantepie</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Vern-sur-Seiche</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Cesson-Sévigné</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Saint-Grégoire</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Noyal-sur-Vilaine</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Bourgbarré</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Argentré-du-Plessis</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Vitré</span>
+                    </div>
+                    <div class="area-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span>Brécé</span>
+                    </div>
+                </div>
+                <p class="areas-note">
+                    <i class="fas fa-info-circle"></i>
+                    Vous ne trouvez pas votre ville ? Contactez-nous, nous intervenons également dans les communes environnantes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Questions fréquentes</span>
+                <h2 class="section-title">Vous avez des questions ?</h2>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>Proposez-vous des devis gratuits ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, tous nos devis sont gratuits et sans engagement. Nous nous déplaçons chez vous pour évaluer vos besoins et vous proposer la solution la plus adaptée à votre budget.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Quels sont vos délais d'intervention ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nous nous efforçons de répondre à toutes les demandes dans les 24 à 48h. Pour les installations, les délais varient selon la complexité du projet, généralement entre 1 et 3 semaines après validation du devis.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>Assurez-vous le service après-vente ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolument ! Nous assurons le SAV de toutes nos installations. Nos équipements sont garantis et nous restons disponibles pour toute assistance technique ou dépannage.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>Puis-je financer mon installation ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, nous proposons des solutions de financement adaptées à votre budget. Contactez-nous pour en savoir plus sur les options disponibles.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">
+                        <h3>Intervenez-vous chez les professionnels ?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, nous intervenons aussi bien chez les particuliers que chez les professionnels : commerces, bureaux, entrepôts, etc. Nos solutions s'adaptent à tous les types de bâtiments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-text">T</span>CONNECTÉ
+                    </div>
+                    <p class="footer-description">
+                        TCONNECTÉ vous accompagne dans la mise en place de solutions connectées : Alarme, Vidéosurveillance, Domotique pour les particuliers et professionnels.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/TCONNECTE/" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/t_connecte/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Nos Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="domotique.html">Domotique</a></li>
+                        <li><a href="alarmes.html">Alarmes</a></li>
+                        <li><a href="videosurveillance.html">Vidéosurveillance</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions générales</a></li>
+                        <li><a href="#">Gestion des cookies</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>13 Rue des Aubépines<br>35410 Domloup</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:0781437859">07 81 43 78 59</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contact@tconnecte.fr">contact@tconnecte.fr</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 TCONNECTÉ | Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
